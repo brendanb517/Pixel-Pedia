@@ -1,21 +1,18 @@
 import React from "react";
+// import NavBar from "./NavBar";
 
 function Header(){
     return(
         <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
             <h1>PIXEL-PEDIA</h1>
-            <p>
-                Edit <code>src/App.js</code> and save to reload.
-            </p>
+            <h4>The Gaming Encyclopedia</h4>
+            {/* <NavBar /> */}
             <a
             className="App-link"
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
-            >
-                Learn React
-            </a>
+            >Learn React</a>
         </header>
     );
 }

@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 
-function NavBar(){
-    const [currentPlatform, setCurrentPlatform] = useState("All");
-    return();
-}
+// function NavBar(){
+//     const [currentPlatform, setCurrentPlatform] = useState("All");
+//     return();
+// }
 
-export default NavBar;
+// export default NavBar;
